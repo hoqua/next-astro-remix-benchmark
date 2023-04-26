@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25ba3fb9-0480-4ae7-903c-96718e8f3ee6" name="Changes" comment="Init" />
+    <list default="true" id="25ba3fb9-0480-4ae7-903c-96718e8f3ee6" name="Changes" comment="Init">
+      <change afterPath="$PROJECT_DIR$/web-next-app/src/lib/data-access.gql.gen.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-next-app/src/lib/data-access.gql.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-next-app/src/lib/get-graphql-client.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-next-app/src/lib/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-next-pages/.local.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-next-pages/lib/data-access.gql.gen.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-next-pages/lib/data-access.gql.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-next-pages/lib/get-graphql-client.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-next-pages/lib/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-next-pages/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-next-pages/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-next-app/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-next-app/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-next-pages/data-access/graphq-client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web-next-pages/data-access/graphq-client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-next-pages/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-next-pages/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-next-pages/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-next-pages/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-next-pages/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-next-pages/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-next-pages/tsconfig.spec.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,14 +44,21 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/hoqua/Desktop/work/youtube/react-frameworks",
+    "last_opened_file_path": "/Users/hoqua/Desktop/work/youtube/react-frameworks/web-next-pages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/hoqua/Desktop/work/youtube/react-frameworks/web-next-pages/node_modules/typescript/lib"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-next-pages" />
+      <recent name="$PROJECT_DIR$/web-next-app/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
