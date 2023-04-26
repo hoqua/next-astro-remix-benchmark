@@ -1,0 +1,15 @@
+---
+import ProductLayout from "../components/product/layout";
+
+export interface Props {
+  title: string
+}
+const {  product } = Astro.props
+
+---
+
+<ProductLayout product={product}>
+  <slot/>
+</ProductLayout>
+
+

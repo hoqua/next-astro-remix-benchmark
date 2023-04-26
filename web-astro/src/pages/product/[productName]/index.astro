@@ -1,0 +1,35 @@
+---
+import { gql } from "../../../data-access/graphq-client";
+import Layout from "../../../layouts/Layout.astro";
+import ProductPage from "../../../components/product/page";
+import ProductLayout from "../../../layouts/ProductLayout.astro";
+
+export async function getStaticPaths() {
+  const { products } = await gql.GetProducts()
+  const productNames = products.map((product) => product.name)
+
+  const params = []
+  for (const product of productNames) {
+    params.push({ params: {productName: product} })
+  }
+  return params
+}
+
+const { productName } = Astro.params;
+
+const { product } = await gql.GetProduct({
+  where: {
+    name: productName
+  }
+})
+ProductLayout
+const { productLengths } = await gql.GetProductLengths()
+
+
+---
+
+<Layout title="Welcome to Astro.">
+  <ProductLayout product={product}>
+    <ProductPage productLength={productLengths} product={product} client:load/>
+  </ProductLayout>
+</Layout>

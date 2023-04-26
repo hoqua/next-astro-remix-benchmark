@@ -1,0 +1,29 @@
+---
+import { gql } from "../data-access/graphq-client";
+import Layout from "../components/common/layout";
+
+
+export interface Props {
+  title: string
+}
+
+const { productCategories } = await gql.GetProductCategories();
+const { title } = Astro.props
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+
+  <body>
+   <Layout productCategories={productCategories} client:load><slot/></Layout>
+  </body>
+</html>
+
